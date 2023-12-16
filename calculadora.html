@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculadora con JavaScript</title>
+</head>
+<body onload="init();">
+    <script src="jsFinal.js"></script>
+
+    <div class="calculator card">
+        <input type="text" class="calculator-screen z-depth-1" value="" disabled />
+        <div class="calculator-keys">
+            <button type="button" id="suma" class="operator btn btn-info" value="+">+</button>
+            <button type="button" id="resta" class="operator btn btn-info" value="-">-</button>
+            <button type="button" id="multiplicacion" class="operator btn btn-info" value="*">&times;</button>
+            <button type="button" id="division" class="operator btn btn-info" value="/">&divide;</button>
+
+            <button type="button" id="siete" value="7" class="btn btn-light waves-effect">7</button>
+            <button type="button" id="ocho" value="8" class="btn btn-light waves-effect">8</button>
+            <button type="button" id="nueve" value="9" class="btn btn-light waves-effect">9</button>
+            <button type="button" id="raiz" class="operator btn btn-info" value="sqrt">&#8730;</button>
+            
+            <button type="button" id="cuatro" value="4" class="btn btn-light waves-effect">4</button>
+            <button type="button" id="cinco" value="5" class="btn btn-light waves-effect">5</button>
+            <button type="button" id="seis" value="6" class="btn btn-light waves-effect">6</button>
+            <button type="button" id="potencia" class="operator btn btn-info" value="pow">X^</button>
+            
+            <button type="button" id="uno" value="1" class="btn btn-light waves-effect">1</button>
+            <button type="button" id="dos" value="2" class="btn btn-light waves-effect">2</button>
+            <button type="button" id="tres" value="3" class="btn btn-light waves-effect">3</button>
+
+            <button type="button" id="punto" class="decimal function btn btn-secondary" value=".">.</button>
+            <button type="button" id="cero" value="0" class="btn btn-light waves-effect">0</button>
+            <button type="button" id="reset" class="all-clear function btn btn-danger btn-sm" value="all-clear">AC</button>
+
+            <button type="button" id="igual" class="equal-sign operator btn btn-default" value="=">=</button>
+        </div>
+    </div>
+</body>
+</html>
